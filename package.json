@@ -1,0 +1,38 @@
+{
+  "name": "outline3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.1.1",
+    "@prisma/client": "^2.3.0",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^2.16.1",
+    "dataloader": "^2.0.0",
+    "graphql": "^15.3.0",
+    "pg": "^7.10.0",
+    "rambda": "^5.10.0",
+    "ramda": "^0.27.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.3.0",
+    "@types/node": "^13.11.1",
+    "eslint-plugin-import": "^2.22.0",
+    "gts": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
