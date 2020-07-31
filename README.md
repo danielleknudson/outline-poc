@@ -9,11 +9,11 @@ Main points
 4. Uses React Bootstrap
 
 To try locally:
-`git clone git@github.com:danielleknudson/outline-poc.git`
+- `git clone git@github.com:danielleknudson/outline-poc.git`
 
 Setup server & client and run separately:
-`cd outline-poc && yarn install && USER='your user id' node index.js`
-`cd client && yarn install && yarn start`
+- `cd outline-poc && yarn install && USER='your user id' node index.js`
+- `cd client && yarn install && yarn start`
 
 You can access the API playground at localhost:4000
 You can access the web client at localhost:3000
